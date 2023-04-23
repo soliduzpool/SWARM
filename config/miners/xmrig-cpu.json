@@ -1,0 +1,28 @@
+{
+    "name": "xmrig-cpu",
+    "CPU": {
+        "name": "CPU",
+        "delay": "1",
+        "prestart": [],
+        "commands": {
+            "randomx-arq": "",
+            "randomx": "",
+            "gr": ""
+        },
+        "difficulty": {
+            "randomx-arq": "",
+            "randomx": "",
+            "gr": ""
+        },
+        "naming": {
+            "randomx-arq": "rx/arq",
+            "randomx": "rx/0",
+            "gr": "gr"
+        },
+        "fee": {
+            "randomx-arq": 1,
+            "randomx": 1,
+            "gr": 1
+        }   
+    }
+}

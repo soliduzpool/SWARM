@@ -1,0 +1,124 @@
+{
+    "AlgoBanCount": 3,
+    "AltPassword1": "",
+    "AltPassword2": "",
+    "AltPassword3": "",
+    "AltWallet1": "",
+    "AltWallet2": "",
+    "AltWallet3": "",
+    "API": "No",
+    "API_ID": 0,
+    "API_Key": "",
+    "APIPassword": "No",
+    "ASIC_ALGO": [
+        ""
+    ],
+    "ASIC_IP": [
+        ""
+    ],
+    "Auto_Algo": "Yes",
+    "Auto_Coin": "No",
+    "Ban_GLT": "No",
+    "Bans": [],
+    "CLPlatform": "",
+    "Coin": [
+        ""
+    ],
+    "Coin_Params": [],
+    "CoinExchange": "ETH",
+    "Conserve": "No",
+    "CPUAlgorithm": [
+        ""
+    ],
+    "CPUOnly": "No",
+    "CPUThreads": "",
+    "Cuda": "10.1",
+    "Currency": "USD",
+    "Custom_Periods": 1,
+    "Donate": 0.5,
+    "ETH": "",
+    "GPUAlgorithm1": [
+        ""
+    ],
+    "GPUAlgorithm2": [
+        ""
+    ],
+    "GPUAlgorithm3": [
+        ""
+    ],
+    "GPUDevices1": [
+        ""
+    ],
+    "GPUDevices2": [
+        ""
+    ],
+    "GPUDevices3": [
+        ""
+    ],
+    "Historical_Bias": "1:1",
+    "Hive_Hash": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "HiveOS": "No",
+    "kwh": "",
+    "Lite": "No",
+    "Location": "US",
+    "Max_Periods": 288,
+    "MinerBanCount": 4,
+    "Nicehash_Fee": 2,
+    "Nicehash_Wallet1": "",
+    "Nicehash_Wallet2": "",
+    "Nicehash_Wallet3": "",
+    "Optional": [],
+    "Passwordcurrency1": "BTC",
+    "Passwordcurrency2": "BTC",
+    "Passwordcurrency3": "BTC",
+    "Platform": "",
+    "PoolBanCount": 2,
+    "PoolBans": "Yes",
+    "Poolname": [
+        "zergpool",
+        "nicehash"
+    ],
+    "Port": 4099,
+    "Rejections": 75,
+    "Remote": "No",
+    "Rigname1": "SWARM",
+    "Rigname2": "SWARM",
+    "Rigname3": "SWARM",
+    "Startup": "Yes",
+    "Stat_Algo": "Live",
+    "Stat_Coin": "Live",
+    "StatsInterval": 3,
+    "SWARM_Hash": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "SWARM_Mode": "No",
+    "Switch_Threshold": "0",
+    "TCP": "No",
+    "TCP_IP": "127.0.0.1",
+    "TCP_Port": 6099,
+    "Threshold": 0.0042,
+    "Timeout": 24,
+    "Time_Wait": 10,
+    "Track_Shares": "Yes",
+    "Type": [],
+    "TypeBanCount": 5,
+    "Update": "Yes",
+    "Volume": "No",
+    "Wallet1": "",
+    "Wallet2": "",
+    "Wallet3": "",
+    "WattOMeter": "Yes",
+    "Worker": "",
+    "Xnsub": "",
+    "Admin": "",
+    "Admin_Fee": 0,
+    "Admin_Pass": "BTC",
+    "Rej_Factor": "Yes",
+    "cpu_priority": 0,
+    "Min_Blocks": 4,
+    "Hidden": "No",
+    "Throttle": 0,
+    "Hashrate_Threshold": 10,
+    "SuperWallet": "",
+    "HashrentInstance": "",
+    "ttf_maximum": 0,
+    "MPH_User": ""
+}

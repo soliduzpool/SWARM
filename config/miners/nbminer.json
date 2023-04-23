@@ -1,0 +1,102 @@
+{
+    "name": "nbminer",
+    "NVIDIA1": {
+        "name": "NVIDIA1",
+        "delay": "1",
+        "prestart": [],
+        "commands": {
+            "ethash": "",
+            "etchash": "",
+            "kawpow": "",
+            "octopus": "",
+            "beamhashv3": ""
+        },
+        "difficulty": {
+            "ethash": "",
+            "etchash": "",
+            "kawpow": "",
+            "octopus": "",
+            "beamhashv3": ""
+        },
+        "naming": {
+            "ethash": "ethash",
+            "etchash": "etchash",
+            "kawpow": "kawpow",
+            "octopus": "octopus",
+            "beamhashv3": "beamv3"
+        },
+        "fee": {
+            "ethash": 1,
+            "etchash": 1,
+            "kawpow": 2,
+            "octopus": 3,
+            "beamhashv3": 2
+        }
+    },
+    "NVIDIA2": {
+        "name": "NVIDIA2",
+        "delay": "1",
+        "prestart": [],
+        "commands": {
+            "ethash": "",
+            "etchash": "",
+            "kawpow": "",
+            "octopus": "",
+            "beamhashv3": ""
+        },
+        "difficulty": {
+            "ethash": "",
+            "etchash": "",
+            "kawpow": "",
+            "octopus": "",
+            "beamhashv3": ""
+        },
+        "naming": {
+            "ethash": "ethash",
+            "etchash": "etchash",
+            "kawpow": "kawpow",
+            "octopus": "octopus",
+            "beamhashv3": "beamv3"
+        },
+        "fee": {
+            "ethash": 1,
+            "etchash": 1,
+            "kawpow": 2,
+            "octopus": 3,
+            "beamhashv3": 2
+        }
+    },
+    "NVIDIA3": {
+        "name": "NVIDIA3",
+        "delay": "1",
+        "prestart": [],
+        "commands": {
+            "ethash": "",
+            "etchash": "",
+            "kawpow": "",
+            "octopus": "",
+            "beamhashv3": ""
+        },
+        "difficulty": {
+            "ethash": "",
+            "etchash": "",
+            "kawpow": "",
+            "octopus": "",
+            "beamhashv3": ""
+        },
+        "naming": {
+            "ethash": "ethash",
+            "etchash": "etchash",
+            "kawpow": "kawpow",
+            "octopus": "octopus",
+            "beamhashv3": "beamv3"
+        },
+        "fee": {
+            "ethash": 1,
+            "etchash": 1,
+            "kawpow": 2,
+            "octopus": 3,
+            "beamhashv3": 2
+        }
+    }
+}

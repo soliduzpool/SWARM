@@ -1,0 +1,51 @@
+#!/bin/bash
+
+# ************install script**************************************************
+#
+# This will install correct version of powershell. No dependencies should be
+# be required.
+#
+# This should be ran as root, so that it can make pwsh an exectuable.
+#
+# This will also run install.ps1, which will install commands in /usr/bin
+# so that they can be open from any terminal. To see list of commands
+# run command 'get help' after running this script.
+#
+# This is independent of swarm.ps1 in case user attempts to start swarm
+# not as a root user. I however cannot gurantee miners will work, nor will
+# they not have issues if they attempt to run swarm not as root.
+# *******************************************************************************
+
+## If powershell doesn't exist- Assume it is a first time run.
+if ! [ -x "$(command -v pwsh)" ]; then
+echo 'pwsh not found- installing 7.2.7'
+wget https://github.com/PowerShell/PowerShell/releases/download/v7.2.7/powershell-7.2.7-linux-x64.tar.gz -O /tmp/powershell.tar.gz --no-check-certificate
+mkdir -p /opt/microsoft/powershell/7.2.7
+tar zxf /tmp/powershell.tar.gz -C /opt/microsoft/powershell/7.2.7
+chmod +x /opt/microsoft/powershell/7.2.7/pwsh
+ln -s /opt/microsoft/powershell/7.2.7/pwsh /usr/bin/pwsh
+rm -rf /tmp/powershell.tar.gz
+chmod 777 -R $HOME/.local/share/powershell
+fi
+
+PVERSION=`pwsh -version`
+
+## If pwsh is wrong version, install it again.
+if [ "$PVERSION" != "PowerShell 7.2.7" ]; then
+echo "updating powershell to latest version"
+echo "removing libs"
+rm -rf /usr/local/swarm/lib64
+rm -rf /opt/microsoft/powershell/
+rm -rf /usr/bin/pwsh
+rm -rf /usr/bin/pwsh-preview
+wget https://github.com/PowerShell/PowerShell/releases/download/v7.2.7/powershell-7.2.7-linux-x64.tar.gz -O /tmp/powershell.tar.gz --no-check-certificate
+mkdir -p /opt/microsoft/powershell/7.2.7
+tar zxf /tmp/powershell.tar.gz -C /opt/microsoft/powershell/7.2.7
+chmod +x /opt/microsoft/powershell/7.2.7/pwsh
+ln -s /opt/microsoft/powershell/7.2.7/pwsh /usr/bin/pwsh
+rm -rf /tmp/powershell.tar.gz
+fi
+
+## Run install script per command request.
+echo 'starting install script'
+pwsh -command ".\build\powershell\scripts\install.ps1"

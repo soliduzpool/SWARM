@@ -1,0 +1,32 @@
+{
+    "CPU": {
+        "name": "CPU",
+        "delay": "1",
+        "prestart": [],
+        "commands": {
+            "yespowermgpc": "",
+            "gr": "",
+            "minotaurx": "",
+            "mike": ""
+        },
+        "difficulty": {
+            "yespowermgpc": "",
+            "gr": "",
+            "minotaurx": "",
+            "mike": ""
+        },
+        "naming": {
+            "yespowermgpc": "yespowermgpc",
+            "gr": "gr",
+            "minotaurx": "minotaurx",
+            "mike": "mike"
+        },
+        "fee": {
+            "yespowermgpc": 0,
+            "gr": 0,
+            "minotaurx": 0,
+            "mike": 0
+        }
+    },
+    "name": "rplant"
+}

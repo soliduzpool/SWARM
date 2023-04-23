@@ -1,0 +1,32 @@
+{
+    "AMD1": {
+        "name": "AMD1",
+        "delay": "1",
+        "prestart": [],
+        "commands": {
+            "handshake": "",
+            "kawpow": "",
+            "ethash": "",
+            "beamhashv3": ""
+        },
+        "difficulty": {
+            "handshake": "",
+            "kawpow": "",
+            "ethash": "",
+            "beamhashv3": ""
+        },
+        "naming": {
+            "handshake": "hns",
+            "kawpow": "kawpow",
+            "ethash": "ethash",
+            "beamhashv3": "beamv3"
+        },
+        "fee": {
+            "handshake": 2,
+            "kawpow": 2,
+            "ethash": 1,
+            "beamhashv3": 2
+        }
+    },
+    "name": "nbminer-amd"
+}

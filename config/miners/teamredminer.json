@@ -1,0 +1,57 @@
+{
+    "name": "teamredminer",
+    "AMD1": {
+        "name": "AMD1",
+        "delay": "1",
+        "prestart": [
+            "export GPU_MAX_HEAP_SIZE=100",
+            "export GPU_USE_SYNC_OBJECTS=1",
+            "export GPU_SINGLE_ALLOC_PERCENT=100",
+            "export GPU_MAX_ALLOC_PERCENT=100"
+        ],
+        "commands": {
+            "etchash": "",
+            "ethash": "",
+            "heavyhash": "",
+            "kawpow": "",
+            "firopow": "",
+            "verthash": "",
+            "autolykos2": "",
+            "ton": "",
+            "nimiq": ""
+        },
+        "difficulty": {
+            "etchash": "",
+            "ethash": "",
+            "heavyhash": "",
+            "kawpow": "",
+            "firopow": "",
+            "verthash": "",
+            "autolykos2": "",
+            "ton": "",
+            "nimiq": ""
+        },
+        "naming": {
+            "etchash": "etchash",
+            "ethash": "ethash",
+            "heavyhash": "kaspa",
+            "kawpow": "kawpow",
+            "firopow": "firopow",
+            "verthash": "verthash",
+            "autolykos2": "autolykos2",
+            "ton": "ton",
+            "nimiq": "nimiq"
+        },
+        "fee": {
+            "etchash": 1,
+            "ethash": 1,
+            "heavyhash": 1,
+            "kawpow": 2,
+            "firopow": 2,
+            "verthash": 2,
+            "autolykos2": 2,
+            "ton": 1,
+            "nimiq": 2.5
+        }
+    }
+}
